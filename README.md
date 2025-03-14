@@ -11,8 +11,10 @@ It includes below config
 - Connected top left 1000G RJ45 to fiber box (ge-7/0/0)
 - Connected to LAN via top left 10G SFP+ (xe-7/0/16)
 - Auto connect via FTTH fiber under New Zealand Voyager, with VLAN10 Tag disable opt in Please update [ISP_LOGIN] and [ISP_PASSWORD] provided by your ISP
-- "user1" as the login, please update [USER_PASSWORD]
+- "user1" as the login, please update [FULLNAME] and [USER_PASSWORD]
 - Default root password, please update [ROOT_PASSWORD]
+- SRX1500 IP = 192.168.1.1
+- SRX1500 Management port IP = 192.168.1.2 
 - Enabled services such as ssh, web management (J-Web), dhcp, read-only snmp
 - Dynamic IP address for blacklist blocking, please update [LOCALWEBSERVER_IP] (Reference: https://www.reddit.com/r/Juniper/comments/i2t97y/srx_loading_custom_dynamiciplists_from_your_own/)
 - Dynamic IP address for country blocking, please update [LOCALWEBSERVER_IP] (Reference: https://www.reddit.com/r/Juniper/comments/kmg1v8/region_blocking_on_srx_platform/)
